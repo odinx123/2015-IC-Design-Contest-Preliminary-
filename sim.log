@@ -1,0 +1,754 @@
+ncverilog(64): 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+file: testfixture.v
+	module worklib.testfixture1:v
+		errors: 0, warnings: 0
+file: SET_syn.v
+	module worklib.SET:v
+		errors: 0, warnings: 0
+file: tsmc13_neg.v
+	module tsmc13_neg.AOI211X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI2BB2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND2BX4:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR3X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI2BB1X4:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  DFFNSRX4 \Y_reg[1]  ( .D(n98), .CKN(clk), .SN(1'b1), .RN(n515), .Q(Y[1]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,102|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19368): QN
+
+  DFFNSRX4 \X_reg[0]  ( .D(n86), .CKN(clk), .SN(1'b1), .RN(n515), .Q(X[0]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,103|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19368): QN
+
+  DFFNSRX2 \Y_reg[3]  ( .D(n99), .CKN(clk), .SN(1'b1), .RN(n515), .Q(Y[3]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,104|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19286): QN
+
+  DFFNSRX2 \c_reg[8]  ( .D(n66), .CKN(clk), .SN(1'b1), .RN(n515), .Q(c[8]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,105|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19286): QN
+
+  TLATX1 \nextstate_reg[0]  ( .G(n101), .D(n102), .Q(nextstate[0]) );
+                          |
+ncelab: *W,CUVWSP (./SET_syn.v,114|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,26772): QN
+
+  TLATX1 \nextstate_reg[1]  ( .G(n101), .D(N25), .Q(nextstate[1]) );
+                          |
+ncelab: *W,CUVWSP (./SET_syn.v,115|26): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,26772): QN
+
+  DFFNSRX1 \r_reg[9]  ( .D(n55), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[9]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,140|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[1]  ( .D(n47), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[1]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,195|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[5]  ( .D(n51), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[5]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,196|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[11]  ( .D(n57), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[11])
+                     |
+ncelab: *W,CUVWSP (./SET_syn.v,197|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[7]  ( .D(n53), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[7]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,199|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[3]  ( .D(n49), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[3]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,200|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[10]  ( .D(n56), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[10])
+                     |
+ncelab: *W,CUVWSP (./SET_syn.v,201|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[6]  ( .D(n52), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[6]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,203|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \r_reg[2]  ( .D(n48), .CKN(clk), .SN(1'b1), .RN(n515), .Q(r[2]) );
+                    |
+ncelab: *W,CUVWSP (./SET_syn.v,204|20): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \candidate_reg[1]  ( .D(n95), .CKN(clk), .SN(1'b1), .RN(n515), .QN(
+                            |
+ncelab: *W,CUVWSP (./SET_syn.v,205|28): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): Q
+
+  DFFNSRX1 \c_reg[20]  ( .D(n78), .CKN(clk), .SN(1'b1), .RN(n515), .Q(c[20])
+                     |
+ncelab: *W,CUVWSP (./SET_syn.v,209|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \c_reg[16]  ( .D(n74), .CKN(clk), .SN(1'b1), .RN(n515), .Q(c[16])
+                     |
+ncelab: *W,CUVWSP (./SET_syn.v,211|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+  DFFNSRX1 \c_reg[12]  ( .D(n70), .CKN(clk), .SN(1'b1), .RN(n515), .Q(c[12])
+                     |
+ncelab: *W,CUVWSP (./SET_syn.v,213|21): 1 output port was not connected:
+ncelab: (./tsmc13_neg.v,19204): QN
+
+	Reading SDF file from location "./SET_syn.sdf"
+	Compiled SDF file "SET_syn.sdf.X" older than source SDF file "./SET_syn.sdf".
+	Recompiling.
+	Writing compiled SDF file to "SET_syn.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     SET_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testfixture1.u_set
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U484 of module ADDHXL <./SET_syn.sdf, line 2098>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U484 of module ADDHXL <./SET_syn.sdf, line 2099>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U484 of module ADDHXL <./SET_syn.sdf, line 2102>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U484 of module ADDHXL <./SET_syn.sdf, line 2103>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U482 of module ADDHXL <./SET_syn.sdf, line 2128>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U482 of module ADDHXL <./SET_syn.sdf, line 2129>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U482 of module ADDHXL <./SET_syn.sdf, line 2132>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U482 of module ADDHXL <./SET_syn.sdf, line 2133>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U481 of module ADDHXL <./SET_syn.sdf, line 2146>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U481 of module ADDHXL <./SET_syn.sdf, line 2147>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U481 of module ADDHXL <./SET_syn.sdf, line 2150>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U481 of module ADDHXL <./SET_syn.sdf, line 2151>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2171>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2172>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2177>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2178>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2181>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U480 of module ADDFXL <./SET_syn.sdf, line 2182>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U479 of module ADDHXL <./SET_syn.sdf, line 2195>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U479 of module ADDHXL <./SET_syn.sdf, line 2196>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U479 of module ADDHXL <./SET_syn.sdf, line 2199>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U479 of module ADDHXL <./SET_syn.sdf, line 2200>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U478 of module ADDHXL <./SET_syn.sdf, line 2213>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U478 of module ADDHXL <./SET_syn.sdf, line 2214>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U478 of module ADDHXL <./SET_syn.sdf, line 2217>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U478 of module ADDHXL <./SET_syn.sdf, line 2218>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U476 of module ADDHXL <./SET_syn.sdf, line 2243>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U476 of module ADDHXL <./SET_syn.sdf, line 2244>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U476 of module ADDHXL <./SET_syn.sdf, line 2247>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U476 of module ADDHXL <./SET_syn.sdf, line 2248>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2317>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2318>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2323>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2324>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2327>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U470 of module ADDFXL <./SET_syn.sdf, line 2328>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2370>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2371>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2376>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2377>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2380>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U467 of module ADDFXL <./SET_syn.sdf, line 2381>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U462 of module ADDHXL <./SET_syn.sdf, line 2438>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U462 of module ADDHXL <./SET_syn.sdf, line 2439>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U462 of module ADDHXL <./SET_syn.sdf, line 2442>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U462 of module ADDHXL <./SET_syn.sdf, line 2443>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U461 of module ADDHXL <./SET_syn.sdf, line 2456>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U461 of module ADDHXL <./SET_syn.sdf, line 2457>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U461 of module ADDHXL <./SET_syn.sdf, line 2460>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U461 of module ADDHXL <./SET_syn.sdf, line 2461>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U460 of module ADDHXL <./SET_syn.sdf, line 2474>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U460 of module ADDHXL <./SET_syn.sdf, line 2475>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U460 of module ADDHXL <./SET_syn.sdf, line 2478>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U460 of module ADDHXL <./SET_syn.sdf, line 2479>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2499>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2500>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2505>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2506>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2509>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U459 of module ADDFXL <./SET_syn.sdf, line 2510>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2530>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2531>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2537>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2540>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U458 of module ADDFXL <./SET_syn.sdf, line 2541>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U456 of module ADDHXL <./SET_syn.sdf, line 2564>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U456 of module ADDHXL <./SET_syn.sdf, line 2565>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U456 of module ADDHXL <./SET_syn.sdf, line 2568>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U456 of module ADDHXL <./SET_syn.sdf, line 2569>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2669>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2670>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2675>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2676>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2679>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U448 of module ADDFX2 <./SET_syn.sdf, line 2680>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2709>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2710>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2715>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2716>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2719>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U446 of module ADDFXL <./SET_syn.sdf, line 2720>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2824>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2825>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2830>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2831>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2834>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U437 of module ADDFXL <./SET_syn.sdf, line 2835>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U431 of module ADDHXL <./SET_syn.sdf, line 2903>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U431 of module ADDHXL <./SET_syn.sdf, line 2904>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U431 of module ADDHXL <./SET_syn.sdf, line 2907>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U431 of module ADDHXL <./SET_syn.sdf, line 2908>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U430 of module ADDHXL <./SET_syn.sdf, line 2921>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U430 of module ADDHXL <./SET_syn.sdf, line 2922>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U430 of module ADDHXL <./SET_syn.sdf, line 2925>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U430 of module ADDHXL <./SET_syn.sdf, line 2926>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2946>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2947>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2952>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2953>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2956>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U429 of module ADDFXL <./SET_syn.sdf, line 2957>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2977>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2978>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2983>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2984>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2987>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U428 of module ADDFXL <./SET_syn.sdf, line 2988>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U427 of module ADDHXL <./SET_syn.sdf, line 3001>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U427 of module ADDHXL <./SET_syn.sdf, line 3002>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U427 of module ADDHXL <./SET_syn.sdf, line 3005>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U427 of module ADDHXL <./SET_syn.sdf, line 3006>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3038>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3039>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3044>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3045>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3048>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U425 of module ADDFXL <./SET_syn.sdf, line 3049>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3069>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3070>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3075>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3076>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3079>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U424 of module ADDFXL <./SET_syn.sdf, line 3080>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3122>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3128>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3129>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3132>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U421 of module ADDFX2 <./SET_syn.sdf, line 3133>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U416 of module ADDHXL <./SET_syn.sdf, line 3188>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U416 of module ADDHXL <./SET_syn.sdf, line 3189>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U416 of module ADDHXL <./SET_syn.sdf, line 3192>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U416 of module ADDHXL <./SET_syn.sdf, line 3193>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U415 of module ADDHXL <./SET_syn.sdf, line 3206>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U415 of module ADDHXL <./SET_syn.sdf, line 3207>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U415 of module ADDHXL <./SET_syn.sdf, line 3210>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U415 of module ADDHXL <./SET_syn.sdf, line 3211>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U414 of module ADDHXL <./SET_syn.sdf, line 3224>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U414 of module ADDHXL <./SET_syn.sdf, line 3225>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U414 of module ADDHXL <./SET_syn.sdf, line 3228>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U414 of module ADDHXL <./SET_syn.sdf, line 3229>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3249>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3250>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3255>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3256>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3259>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U413 of module ADDFXL <./SET_syn.sdf, line 3260>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U412 of module ADDHXL <./SET_syn.sdf, line 3273>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U412 of module ADDHXL <./SET_syn.sdf, line 3274>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U412 of module ADDHXL <./SET_syn.sdf, line 3277>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U412 of module ADDHXL <./SET_syn.sdf, line 3278>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3378>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3379>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3384>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3385>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3388>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U404 of module ADDFX2 <./SET_syn.sdf, line 3389>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3409>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3410>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3415>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3416>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3419>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U403 of module ADDFXL <./SET_syn.sdf, line 3420>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3485>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3486>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3491>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3492>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3495>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U398 of module ADDFX2 <./SET_syn.sdf, line 3496>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3537>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3542>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3543>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3546>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U394 of module ADDFX2 <./SET_syn.sdf, line 3547>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U392 of module XOR2X1 <./SET_syn.sdf, line 3568>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U392 of module XOR2X1 <./SET_syn.sdf, line 3569>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U392 of module XOR2X1 <./SET_syn.sdf, line 3572>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U392 of module XOR2X1 <./SET_syn.sdf, line 3573>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3814>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3815>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3820>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3821>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3824>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U368 of module ADDFX2 <./SET_syn.sdf, line 3825>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3845>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3851>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3852>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3855>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U367 of module ADDFX2 <./SET_syn.sdf, line 3856>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3896>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3897>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3902>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3903>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3906>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U364 of module ADDFX2 <./SET_syn.sdf, line 3907>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U355 of module XOR2X1 <./SET_syn.sdf, line 4000>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U355 of module XOR2X1 <./SET_syn.sdf, line 4001>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U355 of module XOR2X1 <./SET_syn.sdf, line 4004>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U355 of module XOR2X1 <./SET_syn.sdf, line 4005>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U353 of module XOR2X1 <./SET_syn.sdf, line 4026>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U353 of module XOR2X1 <./SET_syn.sdf, line 4027>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U353 of module XOR2X1 <./SET_syn.sdf, line 4030>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U353 of module XOR2X1 <./SET_syn.sdf, line 4031>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U349 of module XNOR2X1 <./SET_syn.sdf, line 4072>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U349 of module XNOR2X1 <./SET_syn.sdf, line 4073>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U349 of module XNOR2X1 <./SET_syn.sdf, line 4076>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U349 of module XNOR2X1 <./SET_syn.sdf, line 4077>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4088>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4089>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4092>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4093>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4096>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4097>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4100>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4101>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4104>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4105>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4115>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4116>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4119>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4120>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.U348 of module CMPR42X1 <./SET_syn.sdf, line 4124>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U347 of module XOR2X1 <./SET_syn.sdf, line 4137>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U347 of module XOR2X1 <./SET_syn.sdf, line 4138>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U347 of module XOR2X1 <./SET_syn.sdf, line 4141>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U347 of module XOR2X1 <./SET_syn.sdf, line 4142>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U346 of module XOR2X1 <./SET_syn.sdf, line 4153>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U346 of module XOR2X1 <./SET_syn.sdf, line 4154>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U346 of module XOR2X1 <./SET_syn.sdf, line 4157>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U346 of module XOR2X1 <./SET_syn.sdf, line 4158>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4190>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4191>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4194>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4195>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4198>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4199>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4202>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4203>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4206>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4207>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4217>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4218>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4221>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4222>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4225>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.U343 of module CMPR42X1 <./SET_syn.sdf, line 4226>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U342 of module ADDHXL <./SET_syn.sdf, line 4241>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U342 of module ADDHXL <./SET_syn.sdf, line 4242>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U342 of module ADDHXL <./SET_syn.sdf, line 4245>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U342 of module ADDHXL <./SET_syn.sdf, line 4246>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U339 of module XNOR2X1 <./SET_syn.sdf, line 4275>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U339 of module XNOR2X1 <./SET_syn.sdf, line 4276>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U339 of module XNOR2X1 <./SET_syn.sdf, line 4279>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U339 of module XNOR2X1 <./SET_syn.sdf, line 4280>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U338 of module XNOR2X1 <./SET_syn.sdf, line 4291>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U338 of module XNOR2X1 <./SET_syn.sdf, line 4292>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U338 of module XNOR2X1 <./SET_syn.sdf, line 4295>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U338 of module XNOR2X1 <./SET_syn.sdf, line 4296>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4316>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4317>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4322>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4323>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4326>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U337 of module ADDFX2 <./SET_syn.sdf, line 4327>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U328 of module ADDHXL <./SET_syn.sdf, line 4419>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U328 of module ADDHXL <./SET_syn.sdf, line 4420>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U328 of module ADDHXL <./SET_syn.sdf, line 4423>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U328 of module ADDHXL <./SET_syn.sdf, line 4424>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U324 of module XNOR2X1 <./SET_syn.sdf, line 4462>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U324 of module XNOR2X1 <./SET_syn.sdf, line 4463>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U324 of module XNOR2X1 <./SET_syn.sdf, line 4466>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U324 of module XNOR2X1 <./SET_syn.sdf, line 4467>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U323 of module ADDHX1 <./SET_syn.sdf, line 4480>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U323 of module ADDHX1 <./SET_syn.sdf, line 4481>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U323 of module ADDHX1 <./SET_syn.sdf, line 4484>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U323 of module ADDHX1 <./SET_syn.sdf, line 4485>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U322 of module XNOR2X1 <./SET_syn.sdf, line 4496>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U322 of module XNOR2X1 <./SET_syn.sdf, line 4497>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U322 of module XNOR2X1 <./SET_syn.sdf, line 4500>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U322 of module XNOR2X1 <./SET_syn.sdf, line 4501>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4530>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4531>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4537>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4540>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U320 of module ADDFX2 <./SET_syn.sdf, line 4541>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4601>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4602>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4607>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4608>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4611>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U315 of module ADDFX2 <./SET_syn.sdf, line 4612>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4672>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4673>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4678>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4679>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4682>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U310 of module ADDFXL <./SET_syn.sdf, line 4683>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U309 of module XOR2X1 <./SET_syn.sdf, line 4694>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U309 of module XOR2X1 <./SET_syn.sdf, line 4695>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U309 of module XOR2X1 <./SET_syn.sdf, line 4698>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U309 of module XOR2X1 <./SET_syn.sdf, line 4699>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U307 of module XOR2X1 <./SET_syn.sdf, line 4720>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U307 of module XOR2X1 <./SET_syn.sdf, line 4721>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U307 of module XOR2X1 <./SET_syn.sdf, line 4724>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U307 of module XOR2X1 <./SET_syn.sdf, line 4725>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4756>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4757>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4760>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4761>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4764>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4765>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4768>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4769>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4772>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4773>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4783>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4784>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4787>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4788>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4791>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.U304 of module CMPR42X1 <./SET_syn.sdf, line 4792>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U301 of module XOR2X1 <./SET_syn.sdf, line 4825>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U301 of module XOR2X1 <./SET_syn.sdf, line 4826>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U301 of module XOR2X1 <./SET_syn.sdf, line 4829>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U301 of module XOR2X1 <./SET_syn.sdf, line 4830>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4952>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4953>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4958>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4959>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4962>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U290 of module ADDFX2 <./SET_syn.sdf, line 4963>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4983>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4984>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4989>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4990>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4993>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U289 of module ADDFX2 <./SET_syn.sdf, line 4994>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U251 of module XNOR2X1 <./SET_syn.sdf, line 5372>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U251 of module XNOR2X1 <./SET_syn.sdf, line 5373>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U251 of module XNOR2X1 <./SET_syn.sdf, line 5376>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U251 of module XNOR2X1 <./SET_syn.sdf, line 5377>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5646>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5647>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5652>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5653>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5656>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U226 of module ADDFX2 <./SET_syn.sdf, line 5657>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U225 of module XOR2X1 <./SET_syn.sdf, line 5668>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U225 of module XOR2X1 <./SET_syn.sdf, line 5669>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U225 of module XOR2X1 <./SET_syn.sdf, line 5672>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U225 of module XOR2X1 <./SET_syn.sdf, line 5673>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U196 of module XOR2X1 <./SET_syn.sdf, line 5966>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U196 of module XOR2X1 <./SET_syn.sdf, line 5967>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U196 of module XOR2X1 <./SET_syn.sdf, line 5970>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U196 of module XOR2X1 <./SET_syn.sdf, line 5971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U193 of module XNOR2X1 <./SET_syn.sdf, line 6004>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U193 of module XNOR2X1 <./SET_syn.sdf, line 6005>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U193 of module XNOR2X1 <./SET_syn.sdf, line 6008>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U193 of module XNOR2X1 <./SET_syn.sdf, line 6009>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6134>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6135>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6140>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6141>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6144>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U182 of module ADDFX2 <./SET_syn.sdf, line 6145>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6165>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6166>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6171>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6172>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6175>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U181 of module ADDFX2 <./SET_syn.sdf, line 6176>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testfixture1.u_set.U176 of module XOR2X1 <./SET_syn.sdf, line 6227>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testfixture1.u_set.U176 of module XOR2X1 <./SET_syn.sdf, line 6228>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testfixture1.u_set.U176 of module XOR2X1 <./SET_syn.sdf, line 6231>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testfixture1.u_set.U176 of module XOR2X1 <./SET_syn.sdf, line 6232>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6397>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6398>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6403>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6404>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6407>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U160 of module ADDFX2 <./SET_syn.sdf, line 6408>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6661>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6662>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6667>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6668>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6671>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U136 of module ADDFXL <./SET_syn.sdf, line 6672>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6886>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6887>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6892>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6893>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6896>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U115 of module ADDFXL <./SET_syn.sdf, line 6897>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6917>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6918>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6923>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6924>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6927>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U114 of module ADDFXL <./SET_syn.sdf, line 6928>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6960>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6961>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6966>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6967>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6970>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testfixture1.u_set.U112 of module ADDFXL <./SET_syn.sdf, line 6971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7074>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7075>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7078>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7079>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7082>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7083>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7086>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7087>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7090>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7091>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7101>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7102>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7105>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7106>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7109>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_112J1_126_7581/U55  of module CMPR42X1 <./SET_syn.sdf, line 7110>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7124>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7127>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7128>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7131>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7132>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7135>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7136>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7139>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7140>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7150>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7151>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7154>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7155>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7158>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U19  of module CMPR42X1 <./SET_syn.sdf, line 7159>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8368>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8369>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8372>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8373>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8376>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8377>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8380>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8381>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8384>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8385>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8395>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8396>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8399>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8400>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8403>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8404>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8417>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8418>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8421>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8422>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8425>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8426>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8429>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8430>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8433>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8434>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8444>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8445>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8448>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8449>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8452>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_108J1_122_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8453>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8466>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8467>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8470>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8471>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8474>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8475>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8478>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8479>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8482>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8483>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8493>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8494>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8497>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8498>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8501>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U23  of module CMPR42X1 <./SET_syn.sdf, line 8502>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8515>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8516>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8519>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8520>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8523>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8524>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge D) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8527>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge D) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8528>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge ICI) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8531>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge ICI) S) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8532>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8542>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8543>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8546>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8547>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8550>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) CO) of instance testfixture1.u_set.\DP_OP_110J1_124_7581/U25  of module CMPR42X1 <./SET_syn.sdf, line 8551>.
+	Annotation completed with 0 Errors and 506 Warnings
+	SDF statistics: No. of Pathdelays = 2167  Annotated = 100.00% -- No. of Tchecks = 566  Annotated = 70.32% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        2167	        2167	      100.00
+		       $hold	         112	           0	        0.00
+		      $width	         226	         226	      100.00
+		  $setuphold	         228	         172	       75.44
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tsmc13_neg.DFFNSRX2:v <0x75829063>
+			streams:   0, words:     0
+		worklib.SET:v <0x0264392e>
+			streams:   0, words:     0
+		worklib.testfixture1:v <0x03581614>
+			streams:  11, words: 17674
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  510      61
+		UDPs:                      58       2
+		Primitives:              1268       8
+		Timing outputs:           639      26
+		Registers:                 70      18
+		Scalar wires:             759       -
+		Expanded wires:            38       3
+		Always blocks:              2       2
+		Initial blocks:             7       7
+		Pseudo assignments:         2       2
+		Timing checks:            794      67
+		Interconnect:            1297       -
+		Delayed tcheck signals:   228      62
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testfixture1:v
+Loading snapshot worklib.testfixture1:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'SET.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+--------------------------- [ Function 3. Simulation START !! ] ---------------------------
+ Pattern           0 at Mode 2 is PASS !
+ Pattern           1 at Mode 2 is PASS !
+ Pattern           2 at Mode 2 is PASS !
+ Pattern           3 at Mode 2 is PASS !
+ Pattern           4 at Mode 2 is PASS !
+ Pattern           5 at Mode 2 is PASS !
+ Pattern           6 at Mode 2 is PASS !
+ Pattern           7 at Mode 2 is PASS !
+ Pattern           8 at Mode 2 is PASS !
+ Pattern           9 at Mode 2 is PASS !
+ Pattern          10 at Mode 2 is PASS !
+ Pattern          11 at Mode 2 is PASS !
+ Pattern          12 at Mode 2 is PASS !
+ Pattern          13 at Mode 2 is PASS !
+ Pattern          14 at Mode 2 is PASS !
+ Pattern          15 at Mode 2 is PASS !
+ Pattern          16 at Mode 2 is PASS !
+ Pattern          17 at Mode 2 is PASS !
+ Pattern          18 at Mode 2 is PASS !
+ Pattern          19 at Mode 2 is PASS !
+ Pattern          20 at Mode 2 is PASS !
+ Pattern          21 at Mode 2 is PASS !
+ Pattern          22 at Mode 2 is PASS !
+ Pattern          23 at Mode 2 is PASS !
+ Pattern          24 at Mode 2 is PASS !
+ Pattern          25 at Mode 2 is PASS !
+ Pattern          26 at Mode 2 is PASS !
+ Pattern          27 at Mode 2 is PASS !
+ Pattern          28 at Mode 2 is PASS !
+ Pattern          29 at Mode 2 is PASS !
+ Pattern          30 at Mode 2 is PASS !
+ Pattern          31 at Mode 2 is PASS !
+ Pattern          32 at Mode 2 is PASS !
+ Pattern          33 at Mode 2 is PASS !
+ Pattern          34 at Mode 2 is PASS !
+ Pattern          35 at Mode 2 is PASS !
+ Pattern          36 at Mode 2 is PASS !
+ Pattern          37 at Mode 2 is PASS !
+ Pattern          38 at Mode 2 is PASS !
+ Pattern          39 at Mode 2 is PASS !
+ Pattern          40 at Mode 2 is PASS !
+ Pattern          41 at Mode 2 is PASS !
+ Pattern          42 at Mode 2 is PASS !
+ Pattern          43 at Mode 2 is PASS !
+ Pattern          44 at Mode 2 is PASS !
+ Pattern          45 at Mode 2 is PASS !
+ Pattern          46 at Mode 2 is PASS !
+ Pattern          47 at Mode 2 is PASS !
+ Pattern          48 at Mode 2 is PASS !
+ Pattern          49 at Mode 2 is PASS !
+ Pattern          50 at Mode 2 is PASS !
+ Pattern          51 at Mode 2 is PASS !
+ Pattern          52 at Mode 2 is PASS !
+ Pattern          53 at Mode 2 is PASS !
+ Pattern          54 at Mode 2 is PASS !
+ Pattern          55 at Mode 2 is PASS !
+ Pattern          56 at Mode 2 is PASS !
+ Pattern          57 at Mode 2 is PASS !
+ Pattern          58 at Mode 2 is PASS !
+ Pattern          59 at Mode 2 is PASS !
+ Pattern          60 at Mode 2 is PASS !
+ Pattern          61 at Mode 2 is PASS !
+ Pattern          62 at Mode 2 is PASS !
+ Pattern          63 at Mode 2 is PASS !
+--------------------------- Simulation FINISH !!---------------------------
+============================================================================
+
+ \(^o^)/ CONGRATULATIONS!!  The simulation result is PASS!!!
+
+============================================================================
+Simulation complete via $finish(1) at time 44210 NS + 0
+./testfixture.v:131 $finish;
+ncsim> exit

@@ -1,0 +1,127 @@
+s1(16Mar2024:10:58:39):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s2(16Mar2024:10:58:51):  ncverilog SET.b 
+s3(16Mar2024:10:58:53):  ncverilog SET.v 
+s4(16Mar2024:11:01:43):  ncverilog SET.v 
+s5(16Mar2024:11:02:15):  ncverilog SET.v 
+s6(16Mar2024:11:02:59):  ncverilog SET.v 
+s7(16Mar2024:11:03:12):  ncverilog SET.v 
+s8(16Mar2024:11:03:24):  ncverilog SET.v 
+s9(16Mar2024:11:03:58):  ncverilog SET.v 
+s10(16Mar2024:11:07:20):  ncverilog SET.v +access+r +nc64bit 
+s11(16Mar2024:11:43:28):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s12(16Mar2024:11:51:49):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s13(16Mar2024:11:52:46):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s14(16Mar2024:11:53:59):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s15(16Mar2024:11:54:11):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s16(16Mar2024:11:55:46):  ncverilog testfixture.v SET.v +define+MD1 
+s17(16Mar2024:12:02:02):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s18(16Mar2024:12:06:33):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s19(16Mar2024:12:50:45):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s20(16Mar2024:12:51:42):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s21(16Mar2024:12:52:18):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s22(16Mar2024:13:05:00):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s23(16Mar2024:13:24:58):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s24(16Mar2024:13:32:08):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s25(16Mar2024:13:34:33):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s26(16Mar2024:13:36:40):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s27(16Mar2024:13:38:43):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s28(16Mar2024:13:39:00):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s29(16Mar2024:13:47:17):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s30(16Mar2024:13:54:07):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s31(16Mar2024:13:54:35):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s32(16Mar2024:13:54:57):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s33(16Mar2024:14:05:09):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s34(16Mar2024:14:06:17):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s35(16Mar2024:14:06:56):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s36(16Mar2024:14:08:24):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s37(16Mar2024:14:25:56):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s38(16Mar2024:14:26:31):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s39(16Mar2024:14:38:17):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s40(16Mar2024:14:38:33):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s41(16Mar2024:14:42:10):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s42(16Mar2024:14:49:13):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s43(16Mar2024:15:02:26):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s44(16Mar2024:15:02:35):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s45(16Mar2024:15:08:16):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s46(16Mar2024:15:08:37):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s47(16Mar2024:15:08:54):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s48(16Mar2024:15:09:05):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s49(16Mar2024:15:09:24):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s50(16Mar2024:15:09:37):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s51(16Mar2024:15:09:59):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s52(16Mar2024:15:20:53):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s53(16Mar2024:15:21:09):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s54(16Mar2024:15:21:29):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s55(16Mar2024:15:21:44):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s56(16Mar2024:15:22:47):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s57(16Mar2024:15:23:38):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s58(16Mar2024:15:50:58):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s59(16Mar2024:15:52:29):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s60(16Mar2024:15:55:57):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s61(16Mar2024:15:59:41):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s62(16Mar2024:16:00:09):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s63(16Mar2024:16:07:07):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s64(16Mar2024:16:19:35):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s65(16Mar2024:16:20:33):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s66(16Mar2024:16:27:37):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s67(16Mar2024:16:39:42):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s68(16Mar2024:16:40:23):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s69(16Mar2024:16:44:32):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s70(16Mar2024:16:44:57):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s71(16Mar2024:16:45:08):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s72(16Mar2024:16:46:03):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s73(16Mar2024:16:46:19):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s74(16Mar2024:16:51:59):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s75(16Mar2024:16:52:27):  ncverilog testfixture.v SET.v +define+MD2 +access+r +nc64bit 
+s76(16Mar2024:16:54:45):  ncverilog testfixture.v SET.v +define+MD3 +access+r +nc64bit 
+s77(16Mar2024:16:54:57):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s78(16Mar2024:16:55:57):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s79(16Mar2024:16:56:22):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s80(16Mar2024:16:57:03):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s81(16Mar2024:16:57:16):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s82(16Mar2024:17:00:13):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s83(16Mar2024:17:01:11):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s84(16Mar2024:17:02:04):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s85(16Mar2024:17:21:57):  ncverilog testfixture.v SET.v +define+MD1 +nc64bit 
+s86(16Mar2024:17:22:04):  ncverilog testfixture.v SET.v +define+MD2 +nc64bit 
+s87(16Mar2024:17:22:10):  ncverilog testfixture.v SET.v +define+MD3 +nc64bit 
+s88(16Mar2024:17:22:16):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s89(16Mar2024:17:23:17):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s90(16Mar2024:17:24:49):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s91(16Mar2024:17:27:40):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s92(16Mar2024:17:29:20):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s93(16Mar2024:17:29:30):  ncverilog testfixture.v SET.v +define+MD1 +nc64bit 
+s94(16Mar2024:17:30:57):  ncverilog testfixture.v SET.v +define+MD1 +nc64bit 
+s95(16Mar2024:17:31:03):  ncverilog testfixture.v SET.v +define+MD2 +nc64bit 
+s96(16Mar2024:17:31:10):  ncverilog testfixture.v SET.v +define+MD3 +nc64bit 
+s97(16Mar2024:17:31:15):  ncverilog testfixture.v SET.v +define+MD4 +nc64bit 
+s98(16Mar2024:17:40:35):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF 
+s99(16Mar2024:17:40:57):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r 
+s100(16Mar2024:17:41:20):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 
+s101(16Mar2024:17:42:34):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 
+s102(16Mar2024:17:42:49):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 +nc64bit 
+s103(16Mar2024:17:43:05):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD2 +nc64bit 
+s104(16Mar2024:17:43:18):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD3 +nc64bit 
+s105(16Mar2024:17:43:25):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD4 +nc64bit 
+s106(16Mar2024:17:43:35):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD4 +nc64bit 
+s107(16Mar2024:17:44:32):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD4 +nc64bit 
+s108(16Mar2024:18:08:59):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD1 
+s109(16Mar2024:18:09:04):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD2 
+s110(16Mar2024:18:09:08):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD3 
+s111(16Mar2024:18:09:13):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD4 
+s112(16Mar2024:18:17:20):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 +nc64bit 
+s113(16Mar2024:18:19:02):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 +nc64bit 
+s114(16Mar2024:18:19:49):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD1 +nc64bit 
+s115(16Mar2024:18:20:04):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD2 +nc64bit 
+s116(16Mar2024:18:20:14):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD3 +nc64bit 
+s117(16Mar2024:18:24:41):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD4 
+s118(16Mar2024:18:26:12):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD3 +nc64bit 
+s119(16Mar2024:18:26:19):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +access+r +define+MD3 +nc64bit 
+s120(21Mar2024:12:12:30):  ncverilog testfixture.v SET.v +access+r +nc64bit +define+MD1 
+s121(21Mar2024:14:37:15):  ncverilog testfixture.v SET.v +access+r +nc64bit 
+s122(21Mar2024:14:37:39):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s123(21Mar2024:14:58:01):  ncverilog testfixture.v SET.v +define+MD1 +access+r +nc64bit 
+s124(21Mar2024:14:58:09):  ncverilog testfixture.v SET.v +define+MD2 +access+r +nc64bit 
+s125(21Mar2024:14:58:21):  ncverilog testfixture.v SET.v +define+MD3 +access+r +nc64bit 
+s126(21Mar2024:14:58:26):  ncverilog testfixture.v SET.v +define+MD4 +access+r +nc64bit 
+s127(25Mar2024:00:09:25):  ncverilog testfixture.v SET_syn.v -v tsmc13_neg.v +define+SDF +nc64bit +access+r +define+MD1 

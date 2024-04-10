@@ -1,0 +1,1009 @@
+Error: Current design is not defined. (UID-4)
+0
+Error: Current design is not defined. (UID-4)
+0
+Error: Current design is not defined. (UID-4)
+0
+Error: Current design is not defined. (UID-4)
+0
+Error: Current design is not defined. (UID-4)
+0
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 17:31:58 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[1] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[1] (in)                             0.04       5.54 r
+  U94/Y (CLKINVX1)                         0.17       5.71 f
+  U93/Y (AOI33X1)                          0.35       6.06 r
+  U92/Y (CLKINVX1)                         0.19       6.25 f
+  U91/Y (AOI221XL)                         0.77       7.02 r
+  U217/Y (OAI21X4)                         0.52       7.54 f
+  U216/Y (CLKMX2X2)                        0.30       7.84 f
+  candidate_reg[7]/D (DFFNSRX4)            0.00       7.84 f
+  data arrival time                                   7.84
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX4)          0.00       5.40 f
+  library setup time                      -0.14       5.26
+  data required time                                  5.26
+  -----------------------------------------------------------
+  data required time                                  5.26
+  data arrival time                                  -7.84
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.58
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 17:46:05 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[1] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[1] (in)                             0.04       5.54 r
+  U94/Y (CLKINVX1)                         0.17       5.71 f
+  U93/Y (AOI33X1)                          0.35       6.06 r
+  U92/Y (CLKINVX1)                         0.19       6.25 f
+  U91/Y (AOI221XL)                         0.77       7.02 r
+  U217/Y (OAI21X4)                         0.52       7.54 f
+  U216/Y (CLKMX2X2)                        0.30       7.84 f
+  candidate_reg[7]/D (DFFNSRX4)            0.00       7.84 f
+  data arrival time                                   7.84
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX4)          0.00       5.40 f
+  library setup time                      -0.14       5.26
+  data required time                                  5.26
+  -----------------------------------------------------------
+  data required time                                  5.26
+  data arrival time                                  -7.84
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.58
+
+
+1
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 18:09:39 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: Y_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: candidate_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.50       0.50
+  Y_reg[3]/CK (DFFRX1)                                    0.00       0.50 r
+  Y_reg[3]/Q (DFFRX1)                                     1.03       1.53 r
+  r477/U2_3/S (ADDFX2)                                    0.74       2.27 f
+  mult_48/a[3] (SET_DW_mult_uns_13)                       0.00       2.27 f
+  mult_48/U55/Y (INVX8)                                   0.17       2.44 r
+  mult_48/U47/Y (NOR2X8)                                  0.10       2.55 f
+  mult_48/U26/Y (NOR2X8)                                  0.16       2.71 r
+  mult_48/U25/Y (INVX20)                                  0.05       2.76 f
+  mult_48/U24/Y (NAND2X8)                                 0.06       2.82 r
+  mult_48/U22/Y (CLKXOR2X8)                               0.23       3.04 f
+  mult_48/product[4] (SET_DW_mult_uns_13)                 0.00       3.04 f
+  r488/B[4] (SET_DW01_add_1)                              0.00       3.04 f
+  r488/U1_4/S (ADDFHX4)                                   0.28       3.32 f
+  r488/SUM[4] (SET_DW01_add_1)                            0.00       3.32 f
+  U272/Y (NAND2BX1)                                       0.30       3.62 f
+  U273/Y (OAI222XL)                                       0.87       4.48 r
+  U275/Y (OAI222XL)                                       0.46       4.95 f
+  U286/Y (AO22X1)                                         0.48       5.43 f
+  U117/Y (OAI21X1)                                        0.37       5.80 r
+  U115/Y (XOR2X1)                                         0.54       6.34 r
+  U114/Y (XOR2X1)                                         0.47       6.81 r
+  I_17/Y (CLKINVX6)                                       0.13       6.94 f
+  C531/Y (AND2X8)                                         0.14       7.09 f
+  C530/Y (AND2X8)                                         0.11       7.20 f
+  U37/Y (AOI33X1)                                         0.36       7.56 r
+  U36/Y (CLKINVX1)                                        0.19       7.75 f
+  U35/Y (AOI221XL)                                        0.77       8.52 r
+  U160/Y (OAI21X4)                                        0.52       9.04 f
+  U159/Y (CLKMX2X4)                                       0.33       9.36 r
+  candidate_reg[7]/D (DFFRX4)                             0.00       9.36 r
+  data arrival time                                                  9.36
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.50      10.50
+  clock uncertainty                                      -0.10      10.40
+  candidate_reg[7]/CK (DFFRX4)                            0.00      10.40 r
+  library setup time                                     -0.16      10.24
+  data required time                                                10.24
+  --------------------------------------------------------------------------
+  data required time                                                10.24
+  data arrival time                                                 -9.36
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.87
+
+
+1
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 18:13:36 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: X_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: candidate_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  X_reg[0]/CK (DFFRX2)                     0.00       0.50 r
+  X_reg[0]/Q (DFFRX2)                      0.88       1.38 r
+  U119/Y (NOR2X1)                          0.37       1.74 f
+  U269/Y (OAI21X2)                         0.38       2.12 r
+  U160/Y (XNOR2X1)                         0.42       2.54 r
+  U309/Y (CLKINVX1)                        0.46       3.01 f
+  U123/Y (NOR2XL)                          0.54       3.54 r
+  U183/CO (ADDHX1)                         0.30       3.85 r
+  U367/S (CMPR42X1)                        0.74       4.59 r
+  U180/Y (NOR2X1)                          0.23       4.81 f
+  U270/Y (OAI21X1)                         0.44       5.25 r
+  U174/Y (AOI21X1)                         0.32       5.57 f
+  U329/Y (OAI21XL)                         0.50       6.07 r
+  U328/Y (XNOR2X1)                         0.49       6.56 r
+  U136/Y (NAND2X1)                         0.20       6.76 f
+  U203/Y (NAND4X1)                         0.23       7.00 r
+  U332/Y (OAI21XL)                         0.22       7.22 f
+  U267/Y (NOR2X1)                          0.38       7.60 r
+  U202/Y (OAI2BB1X2)                       0.28       7.89 r
+  U201/Y (OAI21X1)                         0.15       8.04 f
+  U468/Y (OAI31X1)                         0.19       8.23 r
+  U133/Y (NOR2BX1)                         0.39       8.62 r
+  U470/Y (NOR2X4)                          0.16       8.78 f
+  U108/Y (INVX4)                           0.18       8.97 r
+  U169/Y (NAND2X6)                         0.17       9.13 f
+  U472/Y (NOR2X2)                          0.23       9.37 r
+  U292/Y (NOR2X1)                          0.20       9.56 f
+  U353/Y (OAI21XL)                         0.29       9.85 r
+  U376/Y (OAI2BB1X1)                       0.29      10.14 r
+  candidate_reg[7]/D (DFFRX1)              0.00      10.14 r
+  data arrival time                                  10.14
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  candidate_reg[7]/CK (DFFRX1)             0.00      10.40 r
+  library setup time                      -0.25      10.15
+  data required time                                 10.15
+  -----------------------------------------------------------
+  data required time                                 10.15
+  data arrival time                                 -10.14
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 18:25:09 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.01       5.51 f
+  U138/Y (INVXL)                           0.39       5.90 r
+  U294/Y (NOR2X1)                          0.28       6.19 f
+  U293/Y (OAI2BB1X2)                       0.28       6.47 f
+  U361/Y (OR3X2)                           0.27       6.74 f
+  U145/Y (OAI2BB1X4)                       0.18       6.92 f
+  U187/Y (AOI211X2)                        0.22       7.13 r
+  U473/Y (NAND2BX4)                        0.28       7.42 r
+  U240/Y (NAND2X6)                         0.20       7.61 f
+  U141/Y (NOR2XL)                          0.67       8.29 r
+  U362/Y (NOR2X1)                          0.33       8.62 f
+  U238/Y (OAI21X1)                         0.25       8.87 r
+  U237/Y (NAND2X1)                         0.17       9.04 f
+  U143/Y (OAI31XL)                         0.27       9.30 r
+  candidate_reg[7]/D (DFFNSRX1)            0.00       9.30 r
+  data arrival time                                   9.30
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.05       5.35
+  data required time                                  5.35
+  -----------------------------------------------------------
+  data required time                                  5.35
+  data arrival time                                  -9.30
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -3.95
+
+
+1
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 18:30:59 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: X_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: candidate_reg[7]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  X_reg[0]/CK (DFFRX2)                     0.00       0.50 r
+  X_reg[0]/Q (DFFRX2)                      0.88       1.38 r
+  U119/Y (NOR2X1)                          0.37       1.74 f
+  U269/Y (OAI21X2)                         0.38       2.12 r
+  U160/Y (XNOR2X1)                         0.42       2.54 r
+  U309/Y (CLKINVX1)                        0.46       3.01 f
+  U123/Y (NOR2XL)                          0.54       3.54 r
+  U183/CO (ADDHX1)                         0.30       3.85 r
+  U367/S (CMPR42X1)                        0.74       4.59 r
+  U180/Y (NOR2X1)                          0.23       4.81 f
+  U270/Y (OAI21X1)                         0.44       5.25 r
+  U174/Y (AOI21X1)                         0.32       5.57 f
+  U329/Y (OAI21XL)                         0.50       6.07 r
+  U328/Y (XNOR2X1)                         0.49       6.56 r
+  U136/Y (NAND2X1)                         0.20       6.76 f
+  U203/Y (NAND4X1)                         0.23       7.00 r
+  U332/Y (OAI21XL)                         0.22       7.22 f
+  U267/Y (NOR2X1)                          0.38       7.60 r
+  U202/Y (OAI2BB1X2)                       0.28       7.89 r
+  U201/Y (OAI21X1)                         0.15       8.04 f
+  U468/Y (OAI31X1)                         0.19       8.23 r
+  U133/Y (NOR2BX1)                         0.39       8.62 r
+  U470/Y (NOR2X4)                          0.16       8.78 f
+  U108/Y (INVX4)                           0.18       8.97 r
+  U169/Y (NAND2X6)                         0.17       9.13 f
+  U472/Y (NOR2X2)                          0.23       9.37 r
+  U292/Y (NOR2X1)                          0.20       9.56 f
+  U353/Y (OAI21XL)                         0.29       9.85 r
+  U376/Y (OAI2BB1X1)                       0.29      10.14 r
+  candidate_reg[7]/D (DFFRX1)              0.00      10.14 r
+  data arrival time                                  10.14
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.50      10.50
+  clock uncertainty                       -0.10      10.40
+  candidate_reg[7]/CK (DFFRX1)             0.00      10.40 r
+  library setup time                      -0.25      10.15
+  data required time                                 10.15
+  -----------------------------------------------------------
+  data required time                                 10.15
+  data arrival time                                 -10.14
+  -----------------------------------------------------------
+  slack (MET)                                         0.01
+
+
+1
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sat Mar 16 19:05:10 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: Y_reg[1] (falling edge-triggered flip-flop clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  Y_reg[1]/CKN (DFFNSRX4)                  0.00       5.50 f
+  Y_reg[1]/Q (DFFNSRX4)                    0.69       6.19 r
+  U174/Y (NAND2X1)                         0.27       6.47 f
+  U211/Y (NAND2X1)                         0.24       6.70 r
+  U164/Y (XOR2X1)                          0.38       7.08 r
+  U163/Y (INVX2)                           0.30       7.39 f
+  U389/Y (NOR2XL)                          0.45       7.84 r
+  U330/S (ADDFX2)                          0.55       8.38 r
+  U241/Y (OR2X1)                           0.22       8.60 r
+  U385/Y (AND2X2)                          0.22       8.83 r
+  U435/Y (NOR2XL)                          0.15       8.98 f
+  U436/Y (OAI2BB2XL)                       0.69       9.66 r
+  U350/Y (NOR2XL)                          0.26       9.93 f
+  U437/Y (OAI2BB2XL)                       0.74      10.67 r
+  U438/Y (NOR2X1)                          0.23      10.90 f
+  U439/Y (OAI2BB2XL)                       0.47      11.37 r
+  U178/Y (OAI211X1)                        0.28      11.65 f
+  U226/Y (NAND4X1)                         0.24      11.88 r
+  U224/Y (OAI21X1)                         0.19      12.07 f
+  U290/Y (NOR2X2)                          0.23      12.31 r
+  U223/Y (OAI2BB1X2)                       0.25      12.56 r
+  U222/Y (OAI21X1)                         0.14      12.70 f
+  U136/Y (OAI2BB1X2)                       0.22      12.92 f
+  U137/Y (AOI211XL)                        0.55      13.47 r
+  U476/Y (NAND2BX4)                        0.35      13.82 r
+  U366/Y (OAI21X1)                         0.25      14.07 f
+  U362/Y (NOR2X1)                          0.39      14.47 r
+  U175/Y (OAI21X1)                         0.22      14.68 f
+  U149/Y (NAND2X1)                         0.19      14.87 r
+  U141/Y (OAI31XL)                         0.21      15.09 f
+  candidate_reg[7]/D (DFFNSRX1)            0.00      15.09 f
+  data arrival time                                  15.09
+
+  clock clk (fall edge)                   15.00      15.00
+  clock network delay (ideal)              0.50      15.50
+  clock uncertainty                       -0.10      15.40
+  candidate_reg[7]/CKN (DFFNSRX1)          0.00      15.40 f
+  library setup time                      -0.29      15.11
+  data required time                                 15.11
+  -----------------------------------------------------------
+  data required time                                 15.11
+  data arrival time                                 -15.09
+  -----------------------------------------------------------
+  slack (MET)                                         0.02
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 11:58:04 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.01       5.51 f
+  U138/Y (INVXL)                           0.39       5.90 r
+  U294/Y (NOR2X1)                          0.28       6.19 f
+  U293/Y (OAI2BB1X2)                       0.28       6.47 f
+  U361/Y (OR3X2)                           0.27       6.74 f
+  U145/Y (OAI2BB1X4)                       0.18       6.92 f
+  U187/Y (AOI211X2)                        0.22       7.13 r
+  U473/Y (NAND2BX4)                        0.28       7.42 r
+  U240/Y (NAND2X6)                         0.20       7.61 f
+  U141/Y (NOR2XL)                          0.67       8.29 r
+  U362/Y (NOR2X1)                          0.33       8.62 f
+  U238/Y (OAI21X1)                         0.25       8.87 r
+  U237/Y (NAND2X1)                         0.17       9.04 f
+  U143/Y (OAI31XL)                         0.27       9.30 r
+  candidate_reg[7]/D (DFFNSRX1)            0.00       9.30 r
+  data arrival time                                   9.30
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.05       5.35
+  data required time                                  5.35
+  -----------------------------------------------------------
+  data required time                                  5.35
+  data arrival time                                  -9.30
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -3.95
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 12:12:55 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.01       5.51 f
+  U138/Y (INVXL)                           0.39       5.90 r
+  U294/Y (NOR2X1)                          0.28       6.19 f
+  U293/Y (OAI2BB1X2)                       0.28       6.47 f
+  U361/Y (OR3X2)                           0.27       6.74 f
+  U145/Y (OAI2BB1X4)                       0.18       6.92 f
+  U187/Y (AOI211X2)                        0.22       7.13 r
+  U473/Y (NAND2BX4)                        0.28       7.42 r
+  U240/Y (NAND2X6)                         0.20       7.61 f
+  U141/Y (NOR2XL)                          0.67       8.29 r
+  U362/Y (NOR2X1)                          0.33       8.62 f
+  U238/Y (OAI21X1)                         0.25       8.87 r
+  U237/Y (NAND2X1)                         0.17       9.04 f
+  U143/Y (OAI31XL)                         0.27       9.30 r
+  candidate_reg[7]/D (DFFNSRX1)            0.00       9.30 r
+  data arrival time                                   9.30
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.05       5.35
+  data required time                                  5.35
+  -----------------------------------------------------------
+  data required time                                  5.35
+  data arrival time                                  -9.30
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -3.95
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 14:39:39 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[7]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.01       5.51 f
+  U138/Y (INVXL)                           0.39       5.90 r
+  U294/Y (NOR2X1)                          0.28       6.19 f
+  U293/Y (OAI2BB1X2)                       0.28       6.47 f
+  U361/Y (OR3X2)                           0.27       6.74 f
+  U145/Y (OAI2BB1X4)                       0.18       6.92 f
+  U187/Y (AOI211X2)                        0.22       7.13 r
+  U473/Y (NAND2BX4)                        0.28       7.42 r
+  U240/Y (NAND2X6)                         0.20       7.61 f
+  U141/Y (NOR2XL)                          0.67       8.29 r
+  U362/Y (NOR2X1)                          0.33       8.62 f
+  U238/Y (OAI21X1)                         0.25       8.87 r
+  U237/Y (NAND2X1)                         0.17       9.04 f
+  U143/Y (OAI31XL)                         0.27       9.30 r
+  candidate_reg[7]/D (DFFNSRX1)            0.00       9.30 r
+  data arrival time                                   9.30
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[7]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.05       5.35
+  data required time                                  5.35
+  -----------------------------------------------------------
+  data required time                                  5.35
+  data arrival time                                  -9.30
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -3.95
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 14:41:41 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.04       5.54 f
+  U238/Y (NAND2BXL)                        0.30       5.84 r
+  U231/Y (AOI32X2)                         0.22       6.07 f
+  U169/Y (OR3X2)                           0.35       6.42 f
+  U230/Y (NAND2X4)                         0.14       6.56 r
+  U171/Y (INVX3)                           0.21       6.77 f
+  U282/Y (AO22XL)                          0.41       7.18 f
+  candidate_reg[0]/D (DFFNSRX1)            0.00       7.18 f
+  data arrival time                                   7.18
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.26       5.14
+  data required time                                  5.14
+  -----------------------------------------------------------
+  data required time                                  5.14
+  data arrival time                                  -7.18
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.04
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 14:59:26 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 f
+  mode[0] (in)                             0.04       5.54 f
+  U229/Y (OAI21X1)                         0.17       5.71 r
+  U225/Y (OAI22X2)                         0.18       5.90 f
+  U175/Y (AOI32X1)                         0.30       6.20 r
+  U174/Y (OR3X2)                           0.29       6.49 r
+  U159/Y (NAND2X6)                         0.10       6.59 f
+  U158/Y (CLKAND2X12)                      0.18       6.77 f
+  U215/Y (AND2X1)                          0.26       7.03 f
+  U213/Y (OR2X1)                           0.33       7.36 f
+  candidate_reg[0]/D (DFFNSRX4)            0.00       7.36 f
+  data arrival time                                   7.36
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX4)          0.00       5.40 f
+  library setup time                      -0.14       5.26
+  data required time                                  5.26
+  -----------------------------------------------------------
+  data required time                                  5.26
+  data arrival time                                  -7.36
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.10
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Thu Mar 21 16:33:46 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[0] (in)                             0.04       5.54 r
+  U197/Y (OA21XL)                          0.31       5.85 r
+  U167/Y (OAI2BB2X2)                       0.24       6.08 r
+  U226/Y (AOI32X2)                         0.12       6.20 f
+  U242/Y (OR3X2)                           0.35       6.55 f
+  U245/Y (NAND2X4)                         0.14       6.69 r
+  U175/Y (INVX3)                           0.21       6.90 f
+  U174/Y (AND2X2)                          0.26       7.15 f
+  U171/Y (OR2X1)                           0.28       7.44 f
+  candidate_reg[0]/D (DFFNSRX1)            0.00       7.44 f
+  data arrival time                                   7.44
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.24       5.16
+  data required time                                  5.16
+  -----------------------------------------------------------
+  data required time                                  5.16
+  data arrival time                                  -7.44
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.28
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sun Mar 24 15:51:16 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[0] (in)                             0.04       5.54 r
+  U197/Y (OA21XL)                          0.31       5.85 r
+  U167/Y (OAI2BB2X2)                       0.24       6.08 r
+  U226/Y (AOI32X2)                         0.12       6.20 f
+  U242/Y (OR3X2)                           0.35       6.55 f
+  U245/Y (NAND2X4)                         0.14       6.69 r
+  U175/Y (INVX3)                           0.21       6.90 f
+  U174/Y (AND2X2)                          0.26       7.15 f
+  U171/Y (OR2X1)                           0.28       7.44 f
+  candidate_reg[0]/D (DFFNSRX1)            0.00       7.44 f
+  data arrival time                                   7.44
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.24       5.16
+  data required time                                  5.16
+  -----------------------------------------------------------
+  data required time                                  5.16
+  data arrival time                                  -7.44
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.28
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Sun Mar 24 23:56:50 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[0] (in)                             0.04       5.54 r
+  U197/Y (OA21XL)                          0.31       5.85 r
+  U167/Y (OAI2BB2X2)                       0.24       6.08 r
+  U226/Y (AOI32X2)                         0.12       6.20 f
+  U242/Y (OR3X2)                           0.35       6.55 f
+  U245/Y (NAND2X4)                         0.14       6.69 r
+  U175/Y (INVX3)                           0.21       6.90 f
+  U174/Y (AND2X2)                          0.26       7.15 f
+  U171/Y (OR2X1)                           0.28       7.44 f
+  candidate_reg[0]/D (DFFNSRX1)            0.00       7.44 f
+  data arrival time                                   7.44
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.24       5.16
+  data required time                                  5.16
+  -----------------------------------------------------------
+  data required time                                  5.16
+  data arrival time                                  -7.44
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.28
+
+
+1
+Information: Updating design information... (UID-85)
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SET
+Version: Q-2019.12
+Date   : Mon Mar 25 00:09:53 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: mode[0] (input port clocked by clk)
+  Endpoint: candidate_reg[0]
+            (falling edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SET                tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                     5.00       5.50 r
+  mode[0] (in)                             0.04       5.54 r
+  U197/Y (OA21XL)                          0.31       5.85 r
+  U167/Y (OAI2BB2X2)                       0.24       6.08 r
+  U226/Y (AOI32X2)                         0.12       6.20 f
+  U242/Y (OR3X2)                           0.35       6.55 f
+  U245/Y (NAND2X4)                         0.14       6.69 r
+  U175/Y (INVX3)                           0.21       6.90 f
+  U174/Y (AND2X2)                          0.26       7.15 f
+  U171/Y (OR2X1)                           0.28       7.44 f
+  candidate_reg[0]/D (DFFNSRX1)            0.00       7.44 f
+  data arrival time                                   7.44
+
+  clock clk (fall edge)                    5.00       5.00
+  clock network delay (ideal)              0.50       5.50
+  clock uncertainty                       -0.10       5.40
+  candidate_reg[0]/CKN (DFFNSRX1)          0.00       5.40 f
+  library setup time                      -0.24       5.16
+  data required time                                  5.16
+  -----------------------------------------------------------
+  data required time                                  5.16
+  data arrival time                                  -7.44
+  -----------------------------------------------------------
+  slack (VIOLATED)                                   -2.28
+
+
+1
